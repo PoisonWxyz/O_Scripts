@@ -5,12 +5,13 @@
                                 ██╔═══╝ ██║   ██║██║╚════██║██║   ██║██║╚██╗██║██║███╗██║
                                 ██║     ╚██████╔╝██║███████║╚██████╔╝██║ ╚████║╚███╔███╔╝
                                 ╚═╝      ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚══╝╚══╝
-特别声明:
-我只是一个网络搬运工. 此处内容均源于网路，纯属个人对编程语言的热爱而收集，并仅限于学习使用。谢绝任何个人或团体借此实现任何商业目的.
-谢谢!
 
-I am just a network porter. The content here is all from the Internet. It is purely collected by my personal love of programming languages and is limited to learning. Any individual or group is rejected to achieve any commercial purpose.
-thank you!
+	特别声明:
+	我只是一个网络搬运工. 此处内容均源于网路，纯属个人对编程语言的热爱而收集，并仅限于学习使用。谢绝任何个人或团体借此实现任何商业目的.
+	谢谢!
+	
+	I am just a network porter. The content here is all from the Internet. It is purely collected by my personal love of programming languages and is limited to learning. Any individual or group is rejected to achieve any commercial purpose.
+	thank you!
 
 	****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 	The script here is just a practice of learning JavaScript by myself
