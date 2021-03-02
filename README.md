@@ -1,11 +1,11 @@
-                                                                                                           
+							![Image text](https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Images/poisonw.jpg)<br>                                                                                                           
                                 ██████╗  ██████╗ ██╗███████╗ ██████╗ ███╗   ██╗██╗    ██╗
                                 ██╔══██╗██╔═══██╗██║██╔════╝██╔═══██╗████╗  ██║██║    ██║
                                 ██████╔╝██║   ██║██║███████╗██║   ██║██╔██╗ ██║██║ █╗ ██║
                                 ██╔═══╝ ██║   ██║██║╚════██║██║   ██║██║╚██╗██║██║███╗██║
                                 ██║     ╚██████╔╝██║███████║╚██████╔╝██║ ╚████║╚███╔███╔╝
                                 ╚═╝      ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚══╝╚══╝
-							![Image text](https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Images/poisonw.jpg)<br>
+
 
 
 	特别声明:
