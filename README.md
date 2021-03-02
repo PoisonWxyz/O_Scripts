@@ -11,8 +11,8 @@
 I am just a network porter. The content here is all from the Internet. It is purely collected by my personal love of programming languages and is limited to learning. Any individual or group is rejected to achieve any commercial purpose.
 thank you!
 
-	**您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**
-	The script here is just a practice of learning JavaScript by yourself
+	****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+	The script here is just a practice of learning JavaScript by myself
     It is only used for testing, study and research. Commercial use is prohibited. Its legality, accuracy, completeness and effectiveness cannot be guaranteed. Please make your own judgment based on the situation.
     All resource files in the warehouse are prohibited from being reproduced or published in any form by any official account or self-media.
     PoisonW is not responsible for any script problems, including but not limited to any loss or damage caused by any script errors.
@@ -28,6 +28,7 @@ thank you!
     如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
     任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。 PoisonW保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
     您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
-	
+	****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
 
 
