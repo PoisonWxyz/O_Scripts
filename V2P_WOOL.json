@@ -1,376 +1,241 @@
 {
-  "name": "PoisonW 自用 elecV2P_lxk0301京东系列定时任务订阅",
+  "name": "PoisonW 自用 elecV2P_wool京东系列定时任务订阅",
   "author": "PoisonW自用维护 ",
   "desc": "此订阅仅适用于 elecV2P,与其他软件并不兼容.转载请注明维护者PoisonW",
   "date": "2021-03",
   "list": [
     {
-      "name": "京豆变动通知",
+      "name": "今日头条极速版",
       "type": "cron",
-      "time": "2 9 * * *",
+      "time": "35 8-23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_bean_change.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/ZhiYi-N/jrtt.js"
       }
     },
     {
-      "name": "领京豆额外奖励",
+      "name": "火山视频极速版",
       "type": "cron",
-      "time": "10 7 * * *",
+      "time": "0 */30 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_bean_home.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/ZhiYi-N/hotsoon.js"
       }
     },
     {
-      "name": "东东超市兑换奖品",
+      "name": "抖音火山版",
       "type": "cron",
-      "time": "0 0 0 * * *",
+      "time": "*/5 6-23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_blueCoin.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/ZhiYi-N/huoshan.js"
       }
     },
     {
-      "name": "京东汽车",
+      "name": "抖音极速版",
       "type": "cron",
-      "time": "10 7 * * *",
+      "time": "35 8-23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_car.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/ZhiYi-N/dyjsb.js"
       }
     },
     {
-      "name": "京东汽车兑换",
+      "name": "燃旅视频",
       "type": "cron",
-      "time": "0 0 * * *",
+      "time": "30 10-20 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_car_exchange.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/ZhiYi-N/ranlv.js"
       }
     },
     {
-      "name": "签到领现金",
+      "name": "粉丝互动",
       "type": "cron",
-      "time": "2 0-23/4 * * *",
+      "time": "3 10 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_cash.js"
+        "target": "https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js"
       }
     },
     {
-      "name": "摇京豆",
+      "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
       "type": "cron",
-      "time": "5 0 * * *",
+      "time": "30 6 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_club_lottery.js"
+        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
       }
     },
     {
-      "name": "crazyJoy任务",
+      "name": "闪挣",
       "type": "cron",
-      "time": "10 7 * * *",
+      "time": "*/10 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_crazy_joy.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/sz.js"
       }
     },
     {
-      "name": "监控crazyJoy分红",
+      "name": "宝石星球",
       "type": "cron",
-      "time": "10 12 * * *",
+      "time": "1 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_crazy_joy_bonus.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/baosxq.js"
       }
     },
     {
-      "name": "天天提鹅",
+      "name": "蜗牛吧",
       "type": "cron",
-      "time": "10 * * * *",
+      "time": "45 10-22 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_daily_egg.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/wnb.js"
       }
     },
     {
-      "name": "京喜工厂",
+      "name": "燃旅视频",
       "type": "cron",
-      "time": "10 * * * *",
+      "time": "30 10-20 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_dreamFactory.js"
+        "target": "https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/ranlv.js"
       }
     },
     {
-      "name": "东东农场",
+      "name": "金钱豹",
       "type": "cron",
-      "time": "5 6-18/6 * * *",
+      "time": "15 0 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_fruit.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/jqb.js"
       }
     },
     {
-      "name": "获取互助码",
+      "name": "芝嫲视频",
       "type": "cron",
-      "time": "20 13 * * 6",
+      "time": "15 50 */3 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_get_share_code.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/zmsp.js"
       }
     },
     {
-      "name": "东东工厂",
-      "type": "cron",
-      "time": "10 * * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_jdfactory.js"
-      }
-    },
-    {
-      "name": "京东赚赚",
-      "type": "cron",
-      "time": "10 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_jdzz.js"
-      }
-    },
-    {
-      "name": "京东宠汪汪",
-      "type": "cron",
-      "time": "15 0-23/2 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_joy.js"
-      }
-    },
-    {
-      "name": "京东宠汪汪喂食",
-      "type": "cron",
-      "time": "15 0-23/1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_joy_feedPets.js"
-      }
-    },
-    {
-      "name": "宠汪汪积分兑换奖品",
-      "type": "cron",
-      "time": "0 0-16/8 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_joy_reward.js"
-      }
-    },
-    {
-      "name": "宠汪汪邀请助力与赛跑助力",
+      "name": "羊毛赚",
       "type": "cron",
       "time": "15 10 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_joy_run.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/ymz.js"
       }
     },
     {
-      "name": "宠汪汪偷好友积分与狗粮",
+      "name": "陌嗨短视频",
       "type": "cron",
-      "time": "10 0-21/3 * * *",
+      "time": "15 10 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_joy_steal.js"
+        "target": "https://raw.githubusercontent.com/age174/-/main/mhdsp.js"
       }
     },
     {
-      "name": "京东快递签到",
+      "name": "京喜工厂商品列表详情",
       "type": "cron",
-      "time": "10 0 * * *",
+      "time": "10 10 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_kd.js"
+        "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_products_detail.js"
       }
     },
     {
-      "name": "京东摇钱树",
+      "name": "京东赚京东开团",
       "type": "cron",
-      "time": "3 0-23/2 * * *",
+      "time": "10 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_moneyTree.js"
+        "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd_tuan.js"
       }
     },
     {
-      "name": "京东秒秒币",
+      "name": "聚看点",
       "type": "cron",
-      "time": "10 7 * * *",
+      "time": "*/10 */3 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_ms.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js"
       }
     },
     {
-      "name": "东东萌宠",
+      "name": "数码之家",
       "type": "cron",
-      "time": "15 6-18/6 * * *",
+      "time": "4 0 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_pet.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js"
       }
     },
     {
-      "name": "京东金融养猪猪",
+      "name": "中青浏览赚",
       "type": "cron",
-      "time": "12 * * * *",
+      "time": "20 5 10 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_pigPet.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js"
       }
     },
     {
-      "name": "种豆得豆",
+      "name": "中青自动阅读",
       "type": "cron",
-      "time": "1 7-21/2 * * *",
+      "time": "20 15 */2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_plantBean.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js"
       }
     },
     {
-      "name": "京东保价",
+      "name": "中青看点极速版",
       "type": "cron",
-      "time": "0 2 * * *",
+      "time": "20 11 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_price.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
       }
     },
     {
-      "name": "京东全民开红包",
+      "name": "快手",
       "type": "cron",
-      "time": "1 1 * * *",
+      "time": "0 11 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_redPacket.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js"
       }
     },
     {
-      "name": "闪购盲盒",
+      "name": "来客有礼",
       "type": "cron",
-      "time": "20 8 * * *",
+      "time": "40 10 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_sgmh.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js"
       }
     },
     {
-      "name": "进店领豆",
+      "name": "京东到家",
       "type": "cron",
-      "time": "10 0 * * *",
+      "time": "30 10 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_shop.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js"
       }
     },
     {
-      "name": "东东小窝",
+      "name": "腾讯新闻",
       "type": "cron",
-      "time": "16 22 * * *",
+      "time": "15 3-57 0-23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_small_home.js"
-      }
-    },
-    {
-      "name": "京东天天加速",
-      "type": "cron",
-      "time": "8 0-23/3 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_speed.js"
-      }
-    },
-    {
-      "name": "京东极速版",
-      "type": "cron",
-      "time": "0 7 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_speed_sign.js"
-      }
-    },
-    {
-      "name": "京东极速版红包",
-      "type": "cron",
-      "time": "0 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_speed_redpocke.js"
-      }
-    },
-    {
-      "name": "东东超市",
-      "type": "cron",
-      "time": "11 * * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_superMarket.js"
-      }
-    },
-    {
-      "name": "赚京豆",
-      "type": "cron",
-      "time": "10 7 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_syj.js"
-      }
-    },
-    {
-      "name": "取关京东店铺商品",
-      "type": "cron",
-      "time": "55 23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_unsubscribe.js"
-      }
-    },
-    {
-      "name": "小鸽有礼2",
-      "type": "cron",
-      "time": "30 7 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jd_xgyl.js"
-      }
-    },
-    {
-      "name": "京喜签到",
-      "type": "cron",
-      "time": "5 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/jx_sign.js"
-      }
-    },
-    {
-      "name": "小米运动",
-      "type": "cron",
-      "time": "15 17 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/lxk0301/xmSports.js"
-      }
-	  },
-    {
-      "name": "京东",
-      "type": "cron",
-      "time": "0 9 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/NobyDa/JD-DailyBonus/JD_DailyBonus.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js"
       }
     }
   ]
