@@ -1,8 +1,8 @@
 /* ziye 
-github地址 https://github.com/ziye11
+github地址 https://github.com/6Svip120apk69
 TG频道地址  https://t.me/ziyescript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/ziye.boxjs.json
+boxjs链接  https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/ziye.boxjs.json
 转载请备注个名字，谢谢
 
 ⚠️芝嫲视频
@@ -13,13 +13,14 @@ boxjs链接  https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/ziye.
 2.24 增加自动提现，需要自行获取对应数值的body，并填写CASH变量
 2.24-2 修复刷新错误，务必更新
 2.25 修复版本更新带来的晶石收取问题
+3.8 替换为循环获取ck
 
 ⚠️一共1个位置 1个ck  👉 1条 Secrets
 多账号换行
 
-点击 https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=612545154 下载APP
+点击 https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=613647529 下载APP
 
-或者商店搜索 芝嫲视频 邀请码612545154
+或者商店搜索 芝嫲视频 邀请码613647529
 
 谢谢支持
 
@@ -32,6 +33,7 @@ boxjs链接  https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/ziye.
 
 
 zhimabodyVal 👉ZM_zhimabody
+zhimatxbodyVal 👉ZM_zhimatxbody
 
 CASH 👉ZM_CASH   可设置0.3 0.5 1 5 10 30 50 100 等等，设置完后自行获取对应body
 
@@ -48,16 +50,16 @@ hostname=api.sxsjyzm.com,
 ############## 圈x
 
 #芝嫲视频获取body
-https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.js   
+https:\/\/api\.sxsjyzm\.com\/* url script-request-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/zhima.js   
 
 ############## loon
 #芝嫲视频获取body
-http-request https:\/\/api\.sxsjyzm\.com\/* script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.js,requires-body=true, tag=芝嫲视频获取body
+http-request https:\/\/api\.sxsjyzm\.com\/* script-path=https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/zhima.js,requires-body=true, tag=芝嫲视频获取body
 
 ############## surge
 
 #芝嫲视频获取body
-芝嫲视频获取body = type=http-request,pattern=https:\/\/api\.sxsjyzm\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye11/JavaScript/main/Task/zhima.js 
+芝嫲视频获取body = type=http-request,pattern=https:\/\/api\.sxsjyzm\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/zhima.js 
 
 
 
@@ -158,22 +160,81 @@ if (!COOKIE.zhimabodyVal) {
 
 function GetCookie() {
     if ($request && $request.url.indexOf("loot") >= 0 && $request.url.indexOf("index") >= 0) {
+
         const zhimabodyVal = $request.body;
-        if (zhimabodyVal) $.setdata(zhimabodyVal, "zhimabody" + $.idx);
-        $.log(
-            `[${$.name + $.idx}] 获取zhimabodyVal✅: 成功,zhimabodyVal: ${zhimabodyVal}`
-        );
-        $.msg($.name + $.idx, `获取zhimabodyVal: 成功🎉`, ``);
+        if (zhimabodyVal) {
+            cookie()
+
+            function cookie() {
+                bodys = $.getdata('zhimabody' + $.idx);
+                 if (bodys) {
+                    if (bodys.indexOf(zhimabodyVal) >= 0) {
+                        $.log(
+                            `[${$.name + $.idx}] zhimabodyVal已存在✅: zhimabodyVal: ${zhimabodyVal}`
+                        );
+                        $.msg($.name + $.idx, `zhimabodyVal已存在: 🎉`, ``);
+                        $.done();
+                    } else if ($.idx == '') {
+                        $.idx = 2
+                        cookie()
+                    } else {
+                        $.idx = $.idx + 1
+                        cookie()
+                    }
+                } else {
+                    {
+                        $.setdata(zhimabodyVal, "zhimabody" + $.idx);
+                        $.log(
+                            `[${$.name + $.idx}] 获取zhimabodyVal✅: 成功,zhimabodyVal: ${zhimabodyVal}`
+                        );
+                        $.msg($.name + $.idx, `获取zhimabodyVal: 成功🎉`, ``);
+
+                        $.done();
+                    }
+                };
+
+            }
+
+        }
+
     }
 
     if ($request && $request.url.indexOf("userWxCashSubmit") >= 0) {
         const zhimatxbodyVal = $request.body;
-        if (zhimatxbodyVal) $.setdata(zhimatxbodyVal, "zhimatxbody" + $.idx);
-        $.log(
-            `[${$.name + $.idx}] 获取zhimatxbodyVal✅: 成功,zhimatxbodyVal: ${zhimatxbodyVal}`
-        );
-        $.msg($.name + $.idx, `获取zhimatxbodyVal: 成功🎉`, ``);
+        if (zhimatxbodyVal) {
+            cookie()
 
+            function cookie() {
+                bodys = $.getdata('zhimatxbody' + $.idx);
+                 if (bodys) {
+                    if (bodys.indexOf(zhimatxbodyVal) >= 0) {
+                        $.log(
+                            `[${$.name + $.idx}] zhimatxbodyVal已存在✅: zhimatxbodyVal: ${zhimatxbodyVal}`
+                        );
+                        $.msg($.name + $.idx, `zhimatxbodyVal已存在: 🎉`, ``);
+                        $.done();
+                    } else if ($.idx == '') {
+                        $.idx = 2
+                        cookie()
+                    } else {
+                        $.idx = $.idx + 1
+                        cookie()
+                    }
+                } else {
+                    {
+                        $.setdata(zhimatxbodyVal, "zhimatxbody" + $.idx);
+                        $.log(
+                            `[${$.name + $.idx}] 获取zhimatxbodyVal✅: 成功,zhimatxbodyVal: ${zhimatxbodyVal}`
+                        );
+                        $.msg($.name + $.idx, `获取zhimatxbodyVal: 成功🎉`, ``);
+
+                        $.done();
+                    }
+                };
+
+            }
+
+        }
     }
 
 }
@@ -301,9 +362,9 @@ async function all() {
     if (!Length) {
         $.msg(
             $.name,
-            '提示：⚠️请点击前往获取CK  https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=612545154\n',
-            'https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=612545154', {
-                "open-url": "https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=612545154"
+            '提示：⚠️请点击前往获取CK  https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=613647529\n',
+            'https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=613647529', {
+                "open-url": "https://h5.sxsjyzm.com/sesameH5/public/sesameLogin/register.html?onlyid=613647529"
             }
         );
         return;
