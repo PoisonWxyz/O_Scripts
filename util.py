@@ -33,7 +33,7 @@ PUSH_PLUS_USER = ''                                                       # push
 
 notify_mode = []
 
-# GitHub action运行需要填写对应的secrets
+# GitHub action 运行需要填写对应的secrets
 if "BARK" in os.environ and os.environ["BARK"]:
     BARK = os.environ["BARK"]
 if "SCKEY" in os.environ and os.environ["SCKEY"]:
