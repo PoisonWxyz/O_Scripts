@@ -10,6 +10,7 @@ import re
 from util import send, requests_session
 
 # 参考 https://github.com/Zero-S1/xmly_speed/blob/master/xmly_speed.py
+# 带自动提现
 
 cookies1 = ""
 
