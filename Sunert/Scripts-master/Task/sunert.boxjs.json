@@ -386,6 +386,13 @@
           "desc": "自动提现金额"
         }, 
         {
+          "id": "on_baidu", 
+          "val": true, 
+          "name": "通知开关", 
+          "type": "boolean", 
+          "desc": "任务通知开关"
+        },
+        {
           "id": "task_baidu", 
           "val": true, 
           "name": "任务开关", 
@@ -412,6 +419,7 @@
         "sy_signurl_txnews", 
         "sy_cookie_txnews", 
         "video_txnews", 
+        "prize_txnews",
         "txnews_id"
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js", 
@@ -427,12 +435,11 @@
           "desc": "阅读篇数间隔通知开为1，常关为0(默认50篇)"
         }, 
         {
-          "id": "delay", 
-          "placeholder": "默认200 (点击以展开说明)", 
+          "id": "txnews_id", 
+          "placeholder": "stair_redpack_chajian", 
           "val": "", 
-          "name": "延迟时间(毫秒)", 
-          "type": "number", 
-          "desc": "接口延迟时间"
+          "name": "自定义活动ID", 
+          "type": "text"
         }
       ], 
       "name": "腾讯新闻", 
