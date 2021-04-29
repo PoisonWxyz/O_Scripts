@@ -163,7 +163,7 @@
       "time": "*/10 */3 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/jukan.js"
       }
     },
     {
@@ -172,7 +172,7 @@
       "time": "4 0 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/mydigit.js"
       }
     },
     {
@@ -181,7 +181,7 @@
       "time": "20 5 10 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/youth_gain.js"
       }
     },
     {
@@ -190,7 +190,7 @@
       "time": "20 15 */2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/Youth_Read.js"
       }
     },
     {
@@ -199,7 +199,7 @@
       "time": "20 11 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/youth.js"
       }
     },
     {
@@ -208,7 +208,7 @@
       "time": "0 11 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/kuaishou.js"
       }
     },
     {
@@ -217,7 +217,7 @@
       "time": "40 10 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/lkyl.js"
       }
     },
     {
@@ -226,7 +226,7 @@
       "time": "30 10 8 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/jddj.js"
       }
     },
     {
@@ -235,7 +235,7 @@
       "time": "15 3-57 0-23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js"
+        "target": "https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/txnews.js"
       }
     }
   ]
