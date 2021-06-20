@@ -41,7 +41,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && mkdir -p /root/.ssh \
     && echo -e $KEY > /root/.ssh/id_rsa \
     && chmod 600 /root/.ssh/id_rsa \
-    && ssh-keyscan gitee.com > /root/.ssh/known_hosts \
+    && ssh-keyscan github.com > /root/.ssh/known_hosts \
     && git clone -b ${PW_URL} ${PW_BRANCH} ${PW_DIR} \
     && cd ${PW_DIR} \
     && mkdir -p env logs Scripts/jd Shell Scripts/oth Scripts/python \
@@ -60,7 +60,7 @@ RUN cd ${PW_DIR}/python \
     && apk add --update --no-cache python3 \
     && ln -sf python3 /usr/bin/python \
     & wget https://bootstrap.pypa.io/get-pip.py&python get-pip.py \
-    & wget https://raw.githubusercontent.com/YYTFeng/xmly_speed/master/requirements.txt&pip install -r ./requirements.txt
+    & wget https://raw.githubusercontent.com/自用/requirements.txt&pip install -r ./requirements.txt
 
 COPY /home/Scripts/jd/* ${PW_DIR}/Scripts/jd
 
