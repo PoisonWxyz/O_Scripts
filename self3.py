@@ -15,8 +15,8 @@ import re
 
 ###################################################
 # 对应方案2: 下载到本地,需要此处填写
-cookies1 = ""
-cookies2 = ""
+cookies1 = "1&_device=android&c56e6613-eaa0-3f46-ab07-ba15a201bbb9&2.1.9;1&_token=308620039&23C06530140CF0842A8A0F931696F9A9C430379D50F1DCAFBA7427C26397A583FC8E1D4ECC7D74M630ba5bB7EFE5FE_;channel=and-f5;impl=com.ximalaya.ting.lite;osversion=26;device_model=SM-C5000;XUM=nCqD+bzG;XIM=1463b34478448;c-oper=%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1;net-mode=WIFI;res=1080%2C1920;NSUP=;AID=/zQCzy1yUcI=;manufacturer=samsung;XD=LJhkGYYGHwui3pjmPcvSluVIaVpe4I4wUXbz9kOLID99WRoEm7/zd1hHyObhtqYUOPgAGGMD52e+uE33i+ZSXRWgQ80VHZ1UeOrgBPMcuDYuNW9jyxKq/fxuRemnGTV1emXMCgTwQAbm0QD+4mYFIAHfVsykoaMS54iP4J/9zzw=;umid=e724a2cae03368b3d65427b1f23bc2;xm_grade=0;appVersion=2.1.9.3;x-abtest-bucketIds=316486%2C204900;domain=.ximalaya.com;path=/;"
+cookies2 = "1&_device=android&3d94a9fd-a9d3-37e2-abe8-c9b73a26882c&2.1.9;1&_token=260023407&260A57F0340C9959DDB64AE60C00A7DAC5BAC077D208367A2AE4D70A2EF7ABC2B8EFA1A55474162M9d3b972C178B05C_;channel=and-d12;impl=com.ximalaya.ting.lite;osversion=27;device_model=V1818CA;XUM=CLOvCwol;XIM=30e5c307a3873;c-oper=%E6%9C%AA%E7%9F%A5;net-mode=WIFI;res=720%2C1436;NSUP=;AID=vuF5TTA1cbE=;manufacturer=vivo;XD=3e1ey6pj70KhP3zqwysJ4GHK3BUaaF7AbvXlacPXqwMc6Lp3mPGyqO/y6vpaAL+WlCtCyUvB82HMR5JvHAxr3C0NyzM8139S6bRW1Ntztat1GJkysQv1oVqdcWbWiVCcV59FfuBXU5gZFCH9KirAMr+59xd6kAgBJBUDbcF5DVA=;umid=84181dbd713352f5a97437e1436095;xm_grade=0;appVersion=2.1.9.3;x-abtest-bucketIds=204899%2C316485;domain=.ximalaya.com;path=/;"
 cookiesList = [cookies1,cookies2, ]   # 多账号准备
 
 # 通知服务
