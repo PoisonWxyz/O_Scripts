@@ -15,8 +15,8 @@ import re
 
 ###################################################
 # 对应方案2: 下载到本地,需要此处填写
-cookies1 = ""
-cookies2 = ""
+cookies1 = "1&_device=iPhone&405780EE-5C73-4D92-9A30-7F0A88AF3BCE&1.1.10;1&_token=86888505&225F2370240N71B920CBB6929BC0E34029CD19BDEB6B8994D81596B35384A7202D1224CCF666111MDE109FB66AFD7D9_;NSUP=;XUM=405780EE-5C73-4D92-9A30-7F0A88AF3BCE;ainr=0;c-oper=%E6%9C%AA%E7%9F%A5;channel=ios-b1;device_model=iPhone 6 Plus;idfa=405780EE-5C73-4D92-9A30-7F0A88AF3BCE;impl=com.ximalaya.tingLite;ip=10.2.242.51;net-mode=WIFI;res=1242%2C2208"
+cookies2 = "domain=.ximalaya.com;path=/;channel=ios-b1;impl=com.ximalaya.tingLite;1&_device=iPhone&405780EE-5C73-4D92-9A30-7F0A88AF3BCE&1.1.10;XUM=405780EE-5C73-4D92-9A30-7F0A88AF3BCE;idfa=405780EE-5C73-4D92-9A30-7F0A88AF3BCE;device_model=iPhone 6 Plus;c-oper=%E6%9C%AA%E7%9F%A5;net-mode=WIFI;ip=10.2.242.51;res=1242%2C2208;NSUP=;ainr=0;1&_token=129217700&870B0EF0340NB14B2F9CD0BBEBDF1C16EC3D5E4DFD64AECFA7F10F0FF8A84C7BAE90D3B0FADB29MA86456178B9DC54_"
 cookiesList = [cookies1,cookies2, ]   # 多账号准备
 
 # 通知服务
