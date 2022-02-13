@@ -1,6 +1,6 @@
 # Collected by PoisonW
 # File: .github/workflows/KingRan_KR.yml
-name: shufflewzc-faker2
+name: KingRan_KR
 on:
   schedule:
     - cron: '0 5 * * 3,6'
